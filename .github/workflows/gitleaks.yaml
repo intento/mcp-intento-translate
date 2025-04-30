@@ -1,0 +1,8 @@
+name: gitleaks
+
+on:
+  workflow_dispatch:
+
+jobs:
+  secret_scanning:
+    uses: intento/intento-github-actions/.github/workflows/gitleaks.yml@master
